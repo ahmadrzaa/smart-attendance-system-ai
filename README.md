@@ -1,76 +1,86 @@
-# smart-attendance-system-ai
-A fully automated attendance management platform for modern organizations. Empowered with face recognition via webcam, real-time dashboards, and AI chatbot integration to answer attendance queries.
+# 💼 Smart Attendance System AI 🔍
+A powerful AI-powered attendance management platform for modern institutions. Equipped with real-time facial recognition, a sleek dashboard, and an AI chatbot to handle all your attendance queries!
+
+![Smart Attendance Banner](https://github.com/user-attachments/assets/204487d5-2c44-4c4b-99a1-075deb97d896)
+
+![GitHub stars](https://img.shields.io/github/stars/ahmadrzaa/smart-attendance-system?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ahmadrzaa/smart-attendance-system?style=social)
+![License](https://img.shields.io/badge/license-Proprietary-red)
+![Built With](https://img.shields.io/badge/Built%20With-Django%20%7C%20OpenCV%20%7C%20TensorFlow%20%7C%20HTML%2FCSS-blue)
 
 ---
 
 ## 🚀 Features
 
-- 📷 **Webcam Face Detection** – Mark attendance automatically via webcam
-- 📊 **Real-Time Dashboard** – Admin can see present, absent, late counts dynamically
-- 🤖 **AI Chatbot (NLP-based)** – Ask about attendance, staff, and more using natural language
-- 📱 **Mobile Responsive UI** – Works smoothly across all devices
-- 🧠 **Smart Admin Panel** – Add, edit, delete employees and attendance records
-- 📋 **Employee Status Overview** – List all staff and their real-time attendance state
-- 🗂️ **Secure Login System** – Admin-only access with session-based login
-- 👨‍💼 **Profile Section** – Admin can upload/change photo, edit name, and logout
-- 🌐 **Modern UI Design** – Fully animated, attractive interface with color-coded modules
+| 🌟 Feature                          | 💬 Description                                                                 |
+|------------------------------------|--------------------------------------------------------------------------------|
+| 📷 Webcam Face Detection           | Mark attendance instantly using a webcam                                       |
+| 📊 Real-Time Dashboard             | Live count of Present, Absent, and Late employees                              |
+| 🤖 AI Chatbot (NLP)                | Ask "Who is present?", "Emails of absent staff?" and get instant replies       |
+| 📱 Mobile Friendly UI              | Fully responsive design for phones and tablets                                 |
+| 🧠 Admin Panel                     | Add, edit, delete staff and attendance entries easily                          |
+| 🧾 Employee Status Overview        | View current attendance states of all staff                                    |
+| 🔐 Secure Login                   | Admin login with session security                                              |
+| 👤 Profile Section                 | Upload/change admin profile image & name                                       |
+| 💬 AI Integration                  | AI chatbot embedded on dashboard for interactive queries                       |
+| 🎨 Animated UI                     | Smooth animations, hover effects & modern visual structure                     |
 
 ---
 
-## 🧑‍💻 Technologies Used
+## 🛠️ Technologies Used
 
-| Layer         | Tech Stack                                       |
-|--------------|--------------------------------------------------|
-| Frontend     | HTML, CSS, JavaScript, Font Awesome, Google Fonts |
-| Backend      | Django (Python)                                  |
-| Face Detection | OpenCV + DeepFace                               |
-| AI Chatbot   | TensorFlow, NLTK, JSON, Neural Network Model     |
-| Database     | SQLite3 (default Django)                         |
-| Styling & UX | CSS Grid/Flexbox, Animations, Hover Effects      |
+| Layer            | Stack |
+|------------------|-------|
+| Frontend         | HTML, CSS, JavaScript, Font Awesome, Google Fonts |
+| Backend          | Django (Python) |
+| Face Detection   | OpenCV + DeepFace |
+| AI Chatbot       | TensorFlow, NLTK, JSON, Neural Network Model |
+| Database         | SQLite3 |
+| UX Design        | CSS Grid/Flexbox, Keyframe Animations, Box Shadows |
 
 ---
 
 ## 📷 UI Screenshots
 
-**Login Page**
-![login page](https://github.com/user-attachments/assets/204487d5-2c44-4c4b-99a1-075deb97d896)
+**🔐 Login Page**  
+![Login Page](https://github.com/user-attachments/assets/204487d5-2c44-4c4b-99a1-075deb97d896)
 
-**Dashboard**
-![Screenshot 2025-04-09 114724](https://github.com/user-attachments/assets/c2cc4c42-0758-4812-97dd-d5eb4c460a8a)
+**📊 Admin Dashboard**  
+![Dashboard](https://github.com/user-attachments/assets/c2cc4c42-0758-4812-97dd-d5eb4c460a8a)
 
-**AI Agent Chatbot**
-![ai agent chatbot](https://github.com/user-attachments/assets/f1a2af60-a575-47b2-a3e6-3c98c2d7322d)
+**🤖 AI Chatbot Agent**  
+![AI Agent](https://github.com/user-attachments/assets/f1a2af60-a575-47b2-a3e6-3c98c2d7322d)
 
-**Attendance Module**
-![attendance](https://github.com/user-attachments/assets/81d40852-6481-4e06-ab0a-aa2be9bdb392)
+**📝 Attendance Module**  
+![Attendance](https://github.com/user-attachments/assets/81d40852-6481-4e06-ab0a-aa2be9bdb392)
 
 ---
 
-## 📁 Setup Instructions
+## 🧑‍💻 Getting Started
 
 ```bash
-# Clone the repo
+# Clone this repo
 git clone https://github.com/ahmadrzaa/smart-attendance-system.git
 
-# Create virtual env & install dependencies
+# Navigate to the backend
 cd backend
+
+# Create virtual environment and activate
 python -m venv venv
-venv\Scripts\activate   # (or source venv/bin/activate)
+venv\Scripts\activate   # On Windows
+# or
+source venv/bin/activate  # On Linux/Mac
+
+# Install all required packages
 pip install -r requirements.txt
 
-# Run server
+# Run Django server
 python manage.py runserver
 
-# Train AI Agent (optional but recommended)
-cd backend/ai_agent
+# Train the AI Agent (only once)
+cd ai_agent
 python nlp_brain.py
-```
 
----
-
-## 📂 Folder Structure
-
-```
 ├── backend/
 │   ├── ai_agent/
 │   │   ├── chatbot_model.h5
@@ -82,22 +92,19 @@ python nlp_brain.py
 │   ├── static/
 │   ├── manage.py
 ├── README.md
-```
+
 
 ---
 
-## 🔐 Licensing & Purchase Info
+### 🔐 Licensing & Purchase Info
+> This project is **not open-source** and is protected under licensing terms.  
+> If you're interested in using this project or want the complete source code:
 
-❎ **This project is not open-source.**
-
-💸 **Want the full code?** Contact me below:
-
-- 📧 Email: [ahmadrza.1110@gmail.com](mailto:ahmadrza.1110@gmail.com)
-- 📞 WhatsApp / Call: [+973 3412 3546](https://wa.me/97334123546)
-- 💵 **Price:** $149 USD via Google Pay, PhonePe, or BenefitPay
+📧 ahmadrza.1110@gmail.com
+📞 Call / WhatsApp:  +973 3412 3546
+💳 Price: $149 USD — Pay via Google Pay / PhonePe / BenefitPay
+---
+© 2025–2026 • Made with ❤️ by Ahmad Raza (Software Engineer)
+_All rights reserved._
 
 ---
-
-👨‍💼 Made with ❤️ by Ahmad Raza (Software Engineer)
-
-> 2025 — 2026 © All rights reserved
